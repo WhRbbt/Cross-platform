@@ -7,18 +7,15 @@
     }
 }
 
-/* Add your custom CSS here */
-
-/* Sidebar styles */
 .sidebar {
     width: 250px;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ffffff; /* White background */
-    border-right: 1px solid #ddd; /* Light border on the right */
-    padding-top: 60px; /* Space for the top menu */
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    padding-top: 60px;
 }
 
 .sidebar ul {
@@ -27,18 +24,13 @@
 }
 
 .sidebar li {
-    padding: 10px;
+    padding: 5px;
 }
 
 .sidebar li a {
     text-decoration: none;
-    color: #000; /* Black text */
     display: flex;
     align-items: center;
-}
-
-.sidebar li a:hover {
-    background-color: #f0f0f0; /* Light gray on hover */
 }
 
 .sidebar img {

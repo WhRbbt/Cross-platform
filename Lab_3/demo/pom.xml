@@ -64,8 +64,12 @@
                     <exclude>**/*.html</exclude>
                     <exclude>**/*.css</exclude>
                     <exclude>**/*.js</exclude>
-                    <exclude>**/*.svg</exclude>
                 </excludes>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                    <include>**/*.svg</include>
+                </includes>
             </resource>
         </resources>
         <plugins>
